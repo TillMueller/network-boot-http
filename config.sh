@@ -26,7 +26,7 @@ case "$BOOT_MODE" in
 		wget -q $SERVER/hdd_kernel.sh
 		chmod +x hdd_kernel.sh
 		./hdd_kernel.sh "$HDD" "$FILESYSTEM" "$KERNEL" "$INITRD" "$CMDLINE"
-	y	;;
+		;;
 	NETWORK)
 		wget -q $SERVER/network_kernel.sh
 		chmod +x network_kernel.sh
